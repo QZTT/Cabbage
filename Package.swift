@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Cabbage",
+    platforms: [.iOS(.v10)],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
@@ -25,6 +26,7 @@ let package = Package(
                              .linkedLibrary("CoreGraphics"),
                              .linkedLibrary("CoreMedia"),
                              .linkedLibrary("CoreImage"),
-                             .linkedLibrary("Accelerate")])
+                             .linkedLibrary("Accelerate"),
+                             .linkedLibrary("UIKit")])
     ]
 )
