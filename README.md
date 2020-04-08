@@ -173,7 +173,7 @@ $ git submodule add https://github.com/VideoFlint/Cabbage.git
 ## Requirements
 
 - iOS 9.0+
-- Swift 4.x
+- Swift 5.x
 
 ## Projects using Cabbage
 
